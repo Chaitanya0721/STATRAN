@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+        $(function(){
+            $("#grow").click(function(){
+            $("div").animate({left:"500px",width:'+=50px',height:'+=50px'});
+            
+
+            });
+            $("#shrink").click(function(){
+            $("div").animate({right:"1000px",width:'-=50px',height:'-=50px',});
+            });
+           });
+</script>
+
+    </head>
+    <body>
+        <div style="height: 50px;width: 50px;background: blue;position: absolute;">
+        HI............</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <button id="grow">Grow</button><br><br><br><br>
+        <button id="shrink">Shrink</button>
+                        
+                       
+    </body>
+</html>

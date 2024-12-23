@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+        <script type="text/javascript">
+            function Add()
+            {
+                var a ,b,c;
+                a=parseInt(document.f1.n1.value);
+                b=parseInt(document.f1.n2.value);
+                document.f1.res.value=a+b;
+                
+            }
+            function Sub()
+            {
+                var a1 ,b1,c1;
+                a1=parseInt(document.f1.n1.value);
+                b1=parseInt(document.f1.n2.value);
+                document.f1.res.value=a1-b1;
+                
+            }
+            function Mul()
+            {
+                var a2 ,b2,c2;
+                a2=parseInt(document.f1.n1.value);
+                b2=parseInt(document.f1.n2.value);
+                document.f1.res.value=a2*b2;
+                
+            }
+            function Div()
+            {
+                var a3 ,b3,c;
+                a3=parseInt(document.f1.n1.value);
+                b3=parseInt(document.f1.n2.value);
+                document.f1.res.value=a3/b3;
+                
+            }
+        </script>
+    </head>
+    <body>
+        
+            <form name="f1">
+                Number1<input type="text" name="n1" size="20"><br><br>
+                Number2<input type="text" name="n2" size="20"><br><br>
+                Result<input type="text" name="res" size="20"><br><br>
+                <input type="button" value="Add" onclick="Add();">
+                <input type="button" value="Sub" onclick="Sub();">
+                <input type="button" value="Mul" onclick="Mul();">
+                <input type="button" value="Div" onclick="Div();">
+                <input type="reset" value="Reset">               
+            </form>
+    </body>
+</html>

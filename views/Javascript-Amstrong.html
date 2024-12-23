@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Amgstrong
+        </title>
+    </head>
+    <body>
+        <script>
+           var remainder=0,result=0;
+             var number=Number.parseInt(prompt("enter the a number "));
+             document.write("number="+number+"<br>");
+             originalNumber=number;
+             while (originalNumber != 0)
+             {
+
+                remainder = originalNumber % 10;
+                result += Math.pow(remainder, 3);
+                originalNumber /= 10;
+             }
+
+            if(result == number)
+             {
+                document.write("It is a Amgstrong");
+             }
+             else
+             {
+                document.write("It is not a Amgstrong");
+             }
+        </script>
+    </body>
+</html>
