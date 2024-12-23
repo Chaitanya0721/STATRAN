@@ -1,0 +1,284 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "proxima-nova";
+    padding-top: -10px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 15px 10px;
+    font-family: Cabin,Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    
+    font-weight: 200;
+    font-style: normal;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-family: "proxima-nova";
+
+    font-weight: normal;
+}
+nav ul li a:hover{
+    color:#1d1716;
+    transition: .5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+button{
+    border: none;
+    background:white;
+    padding: 12px 30px;
+    
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .6s ;
+    margin-right: 20px;
+    text-transform: uppercase;
+
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    text-shadow: #1d1716;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 14px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px white ;
+    z-index: 1;
+  box-sizing:border-box;
+    
+  }
+  
+  .dropdown-content a {
+    color:  #a55233;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    font-family: "proxima-nova";
+  }
+  
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color:white;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:white;
+  }
+  div.container
+{
+    font-family: Raleway;
+    margin: 0;
+	
+	text-align: center;
+}
+
+div.container a
+{
+    color: #a55233;
+    text-decoration: none;
+    font: 15px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    
+    cursor: pointer;
+}
+
+
+  div.topLeftBorders a:before
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 0px;
+    background: black;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+div.topLeftBorders a:after
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+div.topLeftBorders a:hover:before
+{
+    height: 100%;
+}
+
+div.topLeftBorders a:hover:after
+{
+    opacity: 0;
+    top: 100%;
+}
+.indigo
+{
+    background: white;
+}
+footer span
+{
+  color:  white;
+}
+footer
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	
+	text-align: center;
+    background: black;
+}
+header
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	
+	text-align: center;
+    background: rgba(0, 0, 0, 0.769);
+}
+header span
+{
+    color: white;
+}
+.CHAI{
+    text-align: center;
+    padding-top: 40px;
+    
+   
+    
+}
+.chai1{
+  display: flex;
+  margin-left: 200px;
+}
+.chai11 {
+    
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width:fit-content ;
+    height: fit-content;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-top: 30px;
+    
+  }
+  
+  .chai11:hover {
+    box-shadow: 0 10px 16px 0 #a55233 ;
+  }
+  
+  .container {
+    padding: 4px, 16px;
+  }
+  .chai12 {
+  
+    margin-left: 200px;
+   padding-left: -200px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width:200px ;
+    height: 200px;
+    padding-right: -200px;
+    background-color: #F0A04B;
+    border-radius: 0px 100px 0 25px;
+   
+    
+  }
+  .chai12:hover
+  {
+    background-color: #E96479;
+  }
+  .chai12:hover:before
+  {
+      height: 25%;
+      
+  }
+  .chai12:hover:after
+  {
+      opacity: 0;
+      top:100%;
+     
+      
+     
+      
+  }
+  .chai12:before
+  {
+      position: absolute;
+      top: 500px;
+      left: 400px;
+      width: 2px;
+      height: px;
+      background: black;
+      content: "";
+      opacity: 1;
+      transition: all 0.3s;
+  }
+  .chai12:after
+  {
+      position: absolute;
+      top: 500px;
+      left: 400px;
+      width: 10%;
+      height: 2px;
+      background: black;
+      content: "";
+      opacity: 1;
+      transition: all 0.3s; 
+      
+  }
+  .c{
+    padding-left: 80px;
+    color: darkslategrey;
+    font-size: 35px;
+   }
+
+   .s4{
+    display: flex;
+    padding-left: 85px;
+   }
+ 
+  
+  
